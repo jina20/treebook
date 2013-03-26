@@ -1,0 +1,7 @@
+jina:
+ first_name: "Jina"
+ last_name: "Lee"
+ email: "ejinah89@hotmail.com"
+ profile_name: "jinalee"
+ password: "password"
+ password_confirmation: "password"
