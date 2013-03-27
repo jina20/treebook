@@ -14,4 +14,8 @@
 /log/*.log
 /tmp
 
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 036a4f9e23a49d1ee51ff2bbad2433d2392dc3e2
