@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
-<<<<<<< HEAD
+
   test "a user should enter a first name" do
   	user = User.new
   	assert ! user.save
@@ -37,9 +37,8 @@ class UserTest < ActiveSupport::TestCase
   	assert !user.errors[:profile_name].empty?
   	assert user.errors[:profile_name].include?("Must be formatted correctly.")
   end
-=======
+
   # test "the truth" do
   #   assert true
   # end
->>>>>>> 036a4f9e23a49d1ee51ff2bbad2433d2392dc3e2
 end

@@ -1,17 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-<<<<<<< HEAD
+
   
   content: MyText
+  user: jina
 
 two:
 
-=======
-  name: MyString
   content: MyText
+  user: jina
 
-two:
-  name: MyString
->>>>>>> 036a4f9e23a49d1ee51ff2bbad2433d2392dc3e2
-  content: MyText
+
