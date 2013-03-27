@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
                   :first_name, :last_name, :profile_name
   # attr_accessible :title, :body
 
-<<<<<<< HEAD
+
   validates :first_name, presence: true
   
   validates :last_name, presence: true
@@ -18,14 +18,12 @@ class User < ActiveRecord::Base
   validates :profile_name, presence: true,
               uniqueness: true,
               format: {
-                with: /a-zA-z0-9_-/,
+                with: /^[a-zA-z0-9_-]+$/,
                 message: 'Must be formatted correctly.'
               }
 
 
 
-=======
->>>>>>> 036a4f9e23a49d1ee51ff2bbad2433d2392dc3e2
   has_many :statuses
 
   def full_name
