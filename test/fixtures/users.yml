@@ -4,17 +4,10 @@ jina:
  last_name: "Lee"
  email: "ejinah89@hotmail.com"
  profile_name: "jinalee"
- password: "password"
- password_confirmation: "password"
-
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
-
-# This model initially had no columns defined.  If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+ 
+hena:
+ first_name: "hena"
+ last_name: "Lee"
+ email: "hena@hotmail.com"
+ profile_name: "henalee"
+ 
