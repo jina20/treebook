@@ -7,7 +7,7 @@
 		<div class="well">
 			<%= status.content %>
 			<hr />
-			<%= time_ago_in_words(status.created_at), status_path(status) %> ago
+			<%= link_to time_ago_in_words(status.created_at), status_path(status) %> ago
 		</div>
 	<% end %>
 <% end %> 
