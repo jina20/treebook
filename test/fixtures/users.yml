@@ -10,4 +10,10 @@ hena:
  last_name: "Lee"
  email: "hena@hotmail.com"
  profile_name: "henalee"
+
+ mike:
+  first_name: "Mike"
+  last_name: "The Frog"
+  email: "mike@hotmail.com"
+  profile_name: "mikethefrog"
  
